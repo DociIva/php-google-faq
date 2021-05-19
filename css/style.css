@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    height: 200px;
+    margin: auto 20px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.privacy {
+    color: #5f6368;
+}
+
+.content {
+    
+}
