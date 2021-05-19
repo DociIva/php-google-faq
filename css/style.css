@@ -6,21 +6,72 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+/*UTILITY*/
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 990px;
+    margin: 20px auto;
+    padding: 20px 0;
 }
-.header {
-    height: 200px;
-    margin: auto 20px;
-    background-color: aqua;
+.flex {
     display: flex;
     justify-content: space-between;
 }
-.privacy {
-    color: #5f6368;
+.header {
+    margin: 20px 20px;
+    background-color: rgba(255,255,255,1);
+    justify-content: space-between;
 }
-/*
+.avatar {
+    overflow-y: auto;
+}
+.icon {
+    display: flex;
+}
+.icon a  {
+    padding: 5px;
+    font-size: 15px;
+    color: #5f6368;
+    font-weight: bold;
+}
+button {
+    line-height: 16px;
+    padding: 9px 23px;
+    font-size: 14px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+nav {
+    padding: 0 15px 10px 15px;
+    border-bottom: 1px solid grey;
+}
+.nav {
+    display: flex;
+    list-style: none;
+}
+.nav li {
+    margin: 10px;
+    color: #5f6368;
+}/*
 .content {
-    
+    max-width: 978px;
+    margin: 20px auto;
+    overflow-y: auto;
 }*/
+h2 {
+    color: #3c4043;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    padding: 64px 0 0 0;
+    overflow-y: auto;
+}
+p {
+    font-size: 14px;
+    margin: 10px 0;
+    line-height: 24px;
+    overflow-y: auto;
+}
