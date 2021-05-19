@@ -86,19 +86,24 @@
        <div class="avatar">
        </div>
    </header>
-    <?php //Ci sono diverse domande con relative risposte.
-          //Gestire il “Database” (array php) e la visualizzazione di queste domande e risposte con PHP.
-    ?>
-
-
-
-    <div class="content">
      
-       <p><?php foreach($faqs as $faq) {
+   <main>
+        <div class="content">
+            <?php foreach($faqs as $faq) { 
+              //domanda
+             // var_dump($faq); ?>
+              <h2><?php echo $faq['question'] ?></h2> 
+              <p><?php echo $faq['answer'] ?></p>
+            
+        <?php } ?>
         
            
-       </p>
+       
+         </div>
+   </main>
 
-    </div>
+
+
+  
 </body>
 </html>
